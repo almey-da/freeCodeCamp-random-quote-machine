@@ -27,6 +27,7 @@ function App(){
   const [randomColor, setRandomColor] = useState<string>(getRandomColor());
   const changeQuote = () => {
     setQuote(getRandomQuote());
+    setRandomColor(getRandomColor());
   };
   
   return (
